@@ -44,6 +44,6 @@ switch (operation) {
     break;
   default:
     console.log(
-      'I cannot calculate that, please type either "sum" (to calculate the sum) or "avg" (To calculate the Average)';
+      'I cannot calculate that, please type either "sum" (to calculate the sum) or "avg" (To calculate the Average)'
     );
 }
