@@ -45,7 +45,7 @@ Add support for an additional operation, `"med"`, which calculates the [**_Media
 1. Sort the set of numbers
 2. Get the index of the middle number by dividing the last index of the set by two: `<last index> / 2`
 3. If the resulting index is a whole number (e.g. 7) then the median of the set is the value in that index.
-4. Otherwise (if the uber is a fraction, e.g. 7.5) then the median is calculated by adding the two values in the indexes around it (for 7.5 it would be 7, and 8) and dividing them by two.
+4. Otherwise (if the number is a fraction, e.g. 7.5) then the median is calculated by adding the two values in the indexes around it (for 7.5 it would be 7, and 8) and dividing them by two.
 
 **_Example (a)_**: For the set 4 ,7, 8, 11, 24 the median index would be 2 (last index: 4, 4 / 2 = 2) and the median value is 8 (the number at position 2).
 
