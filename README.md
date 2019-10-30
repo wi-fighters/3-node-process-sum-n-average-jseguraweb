@@ -28,14 +28,14 @@ $ node index.js avg 1 2 3 4
 
 ```bash
 $ node index.js oops 1 2 3 4
-> I cannot calculate that, please type either "sum" (to calculate the sum) or "avg" (To calculate the Average)
+> "I cannot calculate that, please type either "sum" (to calculate the sum) or "avg" (To calculate the Average)"
 ```
 
 ### Wrong type
 
 ```bash
 $ node index.js sum 1 hello 3 4
-> Sorry, the argument "hello" is not a number, please try again
+> "Sorry, the argument 'hello' is not a number, please try again"
 ```
 
 ## Bonus:
